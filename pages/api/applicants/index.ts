@@ -13,9 +13,7 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
   if (method == "POST") {
     // Create applicant
     const applicant = createApplicantObject(body);
-    console.log(applicant);
     const command = new PutItemCommand(applicant);
-    console.log(command);
     try {
       await client.send(command);
       return res.status(201).json({

@@ -11,7 +11,7 @@ const features = [
   {
     name: "Open source",
     description:
-      "Customize to your heart's content! Fork it, flip it and reverse it - MIT licensed",
+      "Customize to your heart's content. Fork it, flip it and reverse it - MIT licensed",
     icon: CodeIcon,
     iconColor: `bg-gradient-to-r from-green-400 to-green-500`,
     link: "https://github.com/joswayski/OpenATS",
@@ -32,7 +32,8 @@ const features = [
   },
   {
     name: "Developer experience",
-    description: "Same tools you're already using - NextJS, TailwindCSS, AWS",
+    description:
+      "A modern tech stack for a modern workforce. Built upon NextJS and Tailwind",
     icon: EmojiHappyIcon,
     iconColor: `bg-gradient-to-r from-indigo-400 to-indigo-500`,
   },
