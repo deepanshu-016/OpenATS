@@ -1,6 +1,6 @@
 # Runs tests & deploys to prod when PR's are merged into Main
 
-name: Node.js CI
+name: CI/CD
 
 on:
   push:
@@ -35,5 +35,5 @@ jobs:
       - name: Running tests # Starts local server on port 3000
         run: npm test
 
-      - name: Deploying to staging
+      - name: Deploying to production
         run: npx serverless
