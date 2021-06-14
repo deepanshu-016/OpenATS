@@ -38,7 +38,7 @@ The DynamoDB access patterns are as follows:
 
 - Get all applicants in a funnel
 - Get all applicants in a funnel in a specific stage
-  - We can filter then here for applicant attributes
+  - We can then filter here for applicant attributes
 
 **GSI: AllByType**
 
