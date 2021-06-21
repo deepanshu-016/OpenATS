@@ -1,0 +1,37 @@
+const COMPANY_NAME = "Acme";
+const APPLICANT_ID_LENGTH = 20;
+const ORG_ID_LENGTH = 20;
+const ORG_API_KEY_LENGTH = 50;
+const NOTE_ID_LENGTH = 20;
+const FUNNEL_ID_LENGTH = 20;
+const STAGE_ID_LENGTH = 20;
+const STAGE_DESCRIPTION_MAX_LENGTH = 250;
+const STAGE_TITLE_MAX_LENGTH = 250;
+const DYNAMO_CONFIG = { region: "us-east-1" };
+const DYNAMO_TABLE_NAME = `OpenATS`;
+const FIRST_NAME_MAX_LENGTH = 50;
+const LAST_NAME_MAX_LENGTH = 50;
+const FORBIDDEN_KEYS = [
+  // For PUT methods, keys which you are not allowed to update
+  "created_at",
+  "object_type",
+  "PK",
+  "SK",
+  "applicant_id",
+];
+export {
+  COMPANY_NAME,
+  APPLICANT_ID_LENGTH,
+  ORG_ID_LENGTH,
+  ORG_API_KEY_LENGTH,
+  NOTE_ID_LENGTH,
+  FUNNEL_ID_LENGTH,
+  STAGE_ID_LENGTH,
+  STAGE_DESCRIPTION_MAX_LENGTH,
+  STAGE_TITLE_MAX_LENGTH,
+  DYNAMO_CONFIG,
+  DYNAMO_TABLE_NAME,
+  FIRST_NAME_MAX_LENGTH,
+  LAST_NAME_MAX_LENGTH,
+  FORBIDDEN_KEYS,
+};

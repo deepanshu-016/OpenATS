@@ -1,0 +1,6 @@
+openATS:
+  component: "@sls-next/serverless-component@1.19.0"
+  inputs:
+    domain: "openats.net"
+    cloudfront:
+      distributionId: E8WKERXRU9SOG # Optional - See Nextjs FAQ --> A new CloudFront distribution is created on every CI build. I wasn't expecting that
